@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+@import url('https://abbie.github.io/discord-css/import.css');
+/* @import url(https://raw.githubusercontent.com/ctbug/wizadruitheme_redeisgn/refs/heads/main/colors.css); */
+
+
+:root {
+    --\\--compact-title-bar: false;
+    --\\--compact-input-box: true;
+    --\\--compact-context-menu: true;
+    --\\--compact-user-area: false;
+    --\\--compact-channel-categories: false;
+    --\\--compact-server-list: true;
+
+    --\\--hide-nameplates: false;
+    --\\--hide-guild-tags: false;
+    --\\--hide-profile-effects: false;
+    --\\--hide-avatar-decorations: false;
+    --\\--hide-gradient-glow-usernames: false;
+    --\\--hide-server-boost-goal: false;
+    --\\--hide-server-activity: true;
+    --\\--hide-user-activity: false;
+    --\\--hide-context-menu-quick-reactions: true;
+    --\\--hide-hover-quick-reactions: false;
+    --\\--hide-image-edit-button: true;
+    --\\--hide-gif-button: false;
+    --\\--hide-sticker-button: false;
+    --\\--hide-emoji-button: false;
+    --\\--hide-apps-button: true;
+    --\\--hide-gift-button: false;
+    --\\--hide-help-button: false;
+    --\\--hide-shop-button: false;
+    --\\--hide-nitro-button: false;
+    --\\--hide-active-now: false;
+    --\\--hide-nitro-upsells: false;
+    --\\--hide-vencord-desktop-platform-indicator: true;
+    --\\--hide-cluttery-badges: false;
+    /* ^ hides quest, hypesquad, active dev, and discriminator badges */
+
+    --\\--darker-scrollbar: true;
+    --\\--darker-hovered-message: true;
+    --\\--prevent-sidebar-resizing: false;
+    --\\--fix-minor-icon-misalignments: true;
+}
+
+
+    .scroller__36d07::-webkit-scrollbar {
+  display: none; /* or display: none to hide */
+}
+
+.scroller__99e7c::-webkit-scrollbar {
+  display: none; /* or display: none to hide */
+}
+
+.scroller__629e4::-webkit-scrollbar {
+  display: none; /* or display: none to hide */
+}
+
+.peopleList__5ec2f::-webkit-scrollbar {
+  display: none; /* or display: none to hide */
+}
+
+.scroller__7d20c::-webkit-scrollbar {
+  display: none; /* or display: none to hide */
+}
+
+.sidebarRegionScroller__23e6b::-webkit-scrollbar {
+  display: none; /* or display: none to hide */
+}
+
+.contentRegionScroller__23e6b::-webkit-scrollbar {
+  display: none; /* or display: none to hide */
+}
+
+#vc-spotify-player {
+    background-color: #1111112c !important;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 1px solid var(--border-subtle);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 130px;
+    margin-bottom: 12px;
+    backdrop-filter: blur(33px) !important;
+}
+
+section[class^="panels_"] {
+    background: transparent;
+    border: 0px;
+    border-left: 0px;
+    
+}
+
+.container_e131a9 {
+  margin-bottom: 12px;
+border: 1px solid var(--border-subtle);
+border-radius: 20px;
+background: #4141416c !important;
+    backdrop-filter: blur(13px);
+}
+
+section[class^="panels_"] div[class^="container__37e49"] {
+    background-color: #38283a !important;
+    border: 1px solid var(--border-subtle);
+    border-radius: 20px !important;
+    height: 53px;
+    
+}
+
+section[class^="panels_"] div[class^="panel_"] {
+    margin-bottom: 12px;
+    border-radius: 20px;
+    border: 1px solid var(--border-subtle);
+    background: #35353579 !important;
+        backdrop-filter: blur(13px);
+}
+
+header[class^="header_"] {
+    border-bottom: 0px;
+}
+
+section[class^="panels_"] div[class^="listeningAlong_"] {
+    border: 1px solid var(--border-subtle) !important;
+    margin-bottom: 12px;
+    border-radius: 20px;
+    background: #36363648 !important;
+        backdrop-filter: blur(13px);
+}
+
+section[class^="panels_"] div[class^="avatarWrapper__"] {
+  border-radius: 17px;
+}
+
+
+.channelTextArea_f75fb0 {
+  border-radius: 16px;
+      backdrop-filter: blur(13px);
+}
+
+.replyBar__841c8 {
+  background-color: #ffffff00;
+  border-radius: 16px;
+      backdrop-filter: blur(13px);
+}
+
+.container__841c8 {
+background-color: #ffffff00;
+border-radius: 16px;
+    backdrop-filter: blur(13px);
+}
+
+.clipContainer__841c8 {
+background-color: #ffffff00;
+border-radius: 20px;
+    backdrop-filter: blur(13px);
+}
+
+.visual-refresh .form_f75fb0 {
+    & .channelTextArea_f75fb0 {
+        .stackedBars__74017 {
+            background-color: #ffffff00;
+             border-radius: 16px;
+        }
+    }
+}
+
+.scrollerContent__36d07 {
+  margin-bottom: 16px !important;
+}
+
+
+.visual-refresh .form_f75fb0 {
+    & .base_b88801 {
+        & .typingDots_b88801, & .cooldownText_b21699 {
+            &.typingDots_b88801 {
+              border-radius: 12px;
+              margin-bottom: 10px;
+
+            }
+        }
+    }
+}
+
+.channelTextArea_f75fb0, .scrollableContainer__74017, .upload_aa605f {
+  border-radius: 16px !important;
+}
+
+.scrollerInner__36d07 {
+margin-bottom: -10px;
+}
+
+.inner_c0bea0 {
+border-radius: 15px;
+}
+
+.card_b32ca4, .overlay_b32ca4 {
+border-radius: 15px;
+}
+
+.firstCardContainer__84832.hasShowMoreButton__84832 .card__84832 {
+border-radius: 15px;
+}
+
+.firstCardContainer__84832 .card__84832 {
+border-radius: 15px;
+}
+
+.custom-user-profile-theme.theme-dark {
+border-radius: 15px;
+}
+
+/* Sidebar cat */
+.user-profile-sidebar::after {
+    /* Duscord's color setup */
+    --profile-gradient-start:  color-mix(in oklab, var(--profile-gradient-overlay-color) 100%, var(--profile-gradient-primary-color));
+    --profile-gradient-end:  color-mix(in oklab, var(--profile-gradient-overlay-color) 100%, var(--profile-gradient-secondary-color));
+    /* The cat */
+    content: 
+   "  ╱|、   \a"
+ "  (˚ˎ 。7  \a"
+  "  |、˜〵\  \a"
+"    じしˍ,)ノ";
+
+    white-space: pre;
+    inset: 0;
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.479);
+    /* Also discords */
+    background: linear-gradient(var(--profile-gradient-start), var(--profile-gradient-start) var(--custom-user-profile-banner-height), var(--profile-gradient-end));
+    text-align: center;
+    font-size: 150%;
+}
+/* End sidebar cat */
+
+.channelTextArea__74017:focus-within {
+border: 1px solid #5350795e;
+}
+
+
+[class*="closedFolderIconWrapper_"] > [class*="guildIcon_"],
+[data-list-item-id*="guildsnav_"] > [class*="icon_"] {
+    border-radius: 50% !important;
+}
+
+.childWrapper__6e9f8 {
+    border-radius: 50% !important;
+}
+
+.userTag__63ed3:not(:has(.userTagDiscriminator__63ed3), .pronounsText__63ed3)::before {
+    content: "@";
+    color: var(--text-muted);
+    text-decoration: none;
+}
+
+    .upperContainer__9293f .toolbar__9293f .search__49676 { /* Re-Iconify Search */
+        order: -1;
+        .searchBar__97492 { /* Make the default state only show an icon that can be clicked. */
+            transition: all ease 0.3s;
+            width: 25px;
+            box-sizing: unset;
+            cursor: pointer;
+            background: #ffffff00 !important;
+            border: none;
+            padding: 0;
+            .icon__97492 {
+                height: 32px;
+                width: 32px;
+                scale: 1.2;
+                cursor: pointer;
+            }
+        }
+        .focused__97492 .searchBar__97492, .open__97492 .searchBar__97492 { /* Expand the search bar when focused, and keep it expanded when text is entered. These classes make it really easy, thanks discord! */
+            width: 225px;
+            box-sizing: border-box;
+            cursor: text;
+            background: var(--background-gradient-low, var(--input-background));
+            border: 1px solid var(--input-border);
+            padding: 2px 0;
+            .icon__97492 {
+                height: 24px;
+                width: 24px;
+                scale: 1;
+                cursor: pointer;
+            }
+        }
+    }
+
+  .visual-refresh nav[class*=guilds_] {
+  margin-bottom: 80px;
+}
+
+.circleIconButton__5bc7e {
+border-radius: 50px;
+}
+
+.folderPreviewWrapper__48112 {
+border-radius: 50px;
+}
+
+.folderPreviewGuildIcon__48112:nth-child(1) {
+border-top-left-radius: 50px !important;
+}
+
+.folderPreviewGuildIcon__48112:nth-child(2) {
+border-top-right-radius: 50px !important;
+}
+
+.folderPreviewGuildIcon__48112:nth-child(3) {
+border-bottom-left-radius: 50px !important;
+}
+
+.folderPreviewGuildIcon__48112:nth-child(4) {
+border-bottom-right-radius: 50px !important;
+}
+
+:root
+ { --nvbgimg: url("https://i.imgur.com/6qYojPI.gif");
+   --nvbgadjust: rgba(0, 0, 0, 0.74); /*use this to tone the bg for better visibility*/
+   --scrollbar-thin-track: transparent;
+   --scrollbar-auto-track: transparent; } 
+
+/*we'll set the background image at the very bottom*/
+body { background: center/cover var(--nvbgimg) !important; }
+/*add the toning layer..*/
+#app-mount { background: var(--nvbgadjust) !important; }
+
+/*then we clear out backgrounds from a bunch of elements*/
+[class^=app_], /*main app bg*/
+[class^=bg_], /*another bg layer*/
+[class*=guilds_], /*serverlist*/
+[class^=sidebar_], /*channellist*/
+[class^=sidebar_] [class^=container_], /*another layer on channellist*/
+[class^=page_] > [class^=chat_] > section, /*channels & roles top bar*/
+[class^=page_] > [class^=chat_] > [class^=content_], /*channels & roles page*/
+[class^=pageBody_], /*channels & roles channel selection page*/
+[class^=page_] > [class^=chat_], /*members page*/
+[class^=chat_], /*chat bg*/
+[class^=chatContent_], /*another layer on chat*/
+[class^=topicsPillContainer_], /*summaries bar*/
+[class^=chatContent_] + [class^=container_], /*memberlist*/
+[class^=members_], /*another layer on memberlist*/
+[class^=member_], /*each member also has a bg*/
+[class^=chat_] [class^=container_], /*forum channel*/
+[class*=mainCard_], /*forum channel entry*/
+[class^=membersWrap_], /*forum post members*/
+[class^=chatLayerWrapper_] > [class^=resizeHandle_], /*thread sidebar resizer*/
+[class^=chatLayerWrapper_] > [class^=container_], /*thread sidebar*/
+[class^=chatLayerWrapper_] > [class^=container_] > [class^=container_], /*thread sidabar title*/
+[class^=chat_] [class^=wrapper_], /*voicechannel*/
+[class^=callContainer_], /*voicechannel again*/
+[class^=callContainer_] > [class^=root_], /*voicechannel yet again*/
+[class^=gradientBackground_], /*gradients in voicechannel*/
+[class^=gradientBackground_] > [class*=sphere_], /*more gradients in voicechannel*/
+[class^=channelChatWrapper_], /*voicechannel chat*/
+[class^=chatTarget_], /*voicechannel chat again*/
+[class^=channelChatWrapper_] [class^=resizeHandle_], /*voicechannel chat resizer*/
+[class^=channelChatWrapper_] [class^=container_], /*voicechannel chat yet again*/
+[class^=rowContainer_], /*stage channel speakers*/
+[class^=root_] [class^=scroller_], /*stage channel audience*/
+[class^=participants_], /*stage channel audience members background*/
+[class^=participants_] > [class^=tileContainer_], /*stage channel audience member*/
+[class^=container_] > [class^=container_] > section, /*stage channel request to speak top bar*/
+[class^=title_], /*top toolbar*/
+[class^=children_]::after, /*toolbar overflow fadeout*/
+[class^=panels_], /*user panel*/
+[class^=chatContent_] > [class^=form_], /*chat input area in visual refresh*/
+[class^=channelTextArea_], /*chat input*/
+[class^=channelTextArea_] [class^=scrollableContainer_], /*chat input again*/
+[class^=chatContent_] > form::before, /*wtf even is this and why, discord?*/
+[class^=chatContent_] > form::after, /*weird thing in scrollbar*/
+[data-list-id="chat-messages"] > [class^=wrapper_], /*skeleton before messages are loaded*/
+[data-list-id="chat-messages"] > [class^=wrapper_] > [class^=wrapper_], /*skeleton has many bones in it*/
+[class^=privateChannels_], /*DM list*/
+[class^=privateChannels_] [class^=scroller_], /*DM list again*/
+[class^=page_] [class^=chat_] > section, /*message requests top bar*/
+[class*=userProfileOuterUnthemed_], /*DM right sidebar when user has no profile theme*/
+[class*=userProfileOuterUnthemed_] [class^=userPanelInner_], /*same*/
+[class^=page_] > [class^=container_], /*friends list page*/
+[class^=page_] > [class^=container_] > section, /*friends list top bar*/
+[class^=page_] > [class^=container_] > [class^=tabBody_], /*friends list*/
+[class^=nowPlayingColumn_], /* friends list right sidebar*/
+[class^=nowPlayingColumn_] > [class^=container_], /*yeah*/
+[class^=nowPlayingColumn_] [class^=body_], /*activities have..*/
+[class^=nowPlayingColumn_] [class^=section_], /*..a double background too*/
+[class^=itemCard_], /*friends list activity cards*/
+[class^=shop_], /*shop tab content*/
+[class^=shopViewWrapper_] > section, /*shop top bar*/
+[class^=shopScroll_], /*shop content*/
+[class^=pageWrapper_], /*again*/
+[id^=vc-indicators-indicator-items], /*online friend count if plugin is enabled*/
+[class^=sidebar_]::after, /*tiny little area under the profile display*/
+[class^=layer_],
+[class^=sidebarRegion_], /* settings shit */
+[class^=contentRegion_],
+[class^=contentRegionScroller_], /* main region */
+[class^=sidebarRegionScroller_], /* sidebar region */
+[class^=standardSidebarView_]
+ { background: none !important; }
+
+/*remove some shadows*/
+[class^=chat_]::before,
+[class^=header_],
+[class^=content_]::before,
+[class^=tabBody_]::before, /*dm list*/
+[class^=searchBar_] /*dm list search*/
+ { box-shadow: none; }
+
+/*fixes*/
+[class^=sidebar_],
+[class^=userPanelInner_]
+ { border-radius: 0 !important; }
+[class^=privateChannels_] > [class^=scroller_] /*user panel overlaps DM list*/
+ { margin-bottom: 55px; }
+[class^=gradientBackground_]
+ { display: none; } /*remove leftover blurred gradient in VCs*/
+[class^=chat_] > [class^=wrapper_]
+ { background: var(--background-mod-subtle);
+   border-left: 1px solid var(--border-subtle); }
+
+/*make server banner etc scroll away because of overlap*/
+[class^=sidebar_] [class^=container_]:has( > [class^=header_])
+ { position: static; }
+
+ 
+ .mentioned__5126c {
+    background: #55424a21;
+    position: relative;
+        backdrop-filter: blur(13px);
+}
+
+.theme-dark .themed__9293f {
+     backdrop-filter: blur(13px);
+         border-radius: 20px;
+    border: 1px solid var(--border-subtle);
+    margin-bottom: 3px;
+    margin-top: 8px;
+}
+
+.sidebarListRounded_c48ade {
+    backdrop-filter: blur(13px);
+    border-radius: 20px;
+    border: 1px solid var(--border-subtle);
+    margin-right: 8px;
+    margin-left: 8px;
+        margin-top: 8px;
+}
+
+.chat_f75fb0[data-has-border=true] {
+    border-top: 0px;
+}
+
+.outer_c0bea0 {
+      border-radius: 20px;
+    border: 1px solid var(--border-subtle);
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+
+.banner__7f9c0 {
+   border-top-right-radius: 20px;
+   border-top-left-radius: 20px;
+}
+
+.profileEffects__01370 {
+  border-radius: 20px;
+}
+
+.scroller_ef3116 {
+    border-radius: 17px;
+    border: 1px solid var(--border-subtle);
+        backdrop-filter: blur(13px);
+            margin-top: 8px;
+}
+
+[class^=bar]{
+    backdrop-filter: blur(5px);
+    border: 1px solid var(--border-subtle);
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-radius: 14px;
+}
+
+.cozy_c19a55 {
+    backdrop-filter: blur(4px);
+    border-radius: 20px;
+    margin-left: 2px;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    margin-top: 10px;
+    margin-bottom: 10px !important;
+    margin-right: 3px;
+    background: #00000028;
+}
+
+.chatTypingGradientAtBottom__36d07 {
+display: none;
+}
+
+.chatGradientBase__36d07 {
+display: none;
+}
+
+.clickable_c99c29 {
+display: none;
+}
+
+.button__85643 {
+display: none;
+}
