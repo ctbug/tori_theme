@@ -507,3 +507,9 @@ display: none;
 .button__85643 {
 display: none;
 }
+
+.markup__75297 code {
+border-radius: 13px;
+background: #50494e2c;
+border: 1px solid var(--border-subtle);
+}
