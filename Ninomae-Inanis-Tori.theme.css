@@ -99,7 +99,7 @@ background: #4141416c !important;
 }
 
 section[class^="panels_"] div[class^="container__37e49"] {
-    background-color: #38283a !important;
+    background-color: #2a2230 !important;
     border: 1px solid var(--border-subtle);
     border-radius: 20px !important;
     height: 53px;
@@ -424,21 +424,23 @@ body { background: center/cover var(--nvbgimg) !important; }
  .mentioned__5126c {
     background: #55424a21;
     position: relative;
-        backdrop-filter: blur(13px);
+        backdrop-filter: blur(3px);
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        margin-right: 10px;
 }
 
 .theme-dark .themed__9293f {
-     backdrop-filter: blur(13px);
          border-radius: 20px;
-    border: 1px solid var(--border-subtle);
+    border: 0px solid var(--border-subtle);
     margin-bottom: 3px;
     margin-top: 8px;
 }
 
 .sidebarListRounded_c48ade {
-    backdrop-filter: blur(13px);
+    backdrop-filter: blur(2px);
     border-radius: 20px;
-    border: 1px solid var(--border-subtle);
+    border: Opx solid var(--border-subtle);
     margin-right: 8px;
     margin-left: 8px;
         margin-top: 8px;
@@ -452,7 +454,6 @@ body { background: center/cover var(--nvbgimg) !important; }
       border-radius: 20px;
     border: 1px solid var(--border-subtle);
     margin-left: 8px;
-    margin-bottom: 8px;
 }
 
 .banner__7f9c0 {
@@ -466,8 +467,8 @@ body { background: center/cover var(--nvbgimg) !important; }
 
 .scroller_ef3116 {
     border-radius: 17px;
-    border: 1px solid var(--border-subtle);
-        backdrop-filter: blur(13px);
+    border: 0px solid var(--border-subtle);
+        backdrop-filter: blur(3px);
             margin-top: 8px;
 }
 
@@ -478,18 +479,6 @@ body { background: center/cover var(--nvbgimg) !important; }
     border-left: 1px solid transparent;
     border-right: 1px solid transparent;
     border-radius: 14px;
-}
-
-.cozy_c19a55 {
-    backdrop-filter: blur(4px);
-    border-radius: 20px;
-    margin-left: 2px;
-    padding-top: 8px !important;
-    padding-bottom: 8px !important;
-    margin-top: 10px;
-    margin-bottom: 10px !important;
-    margin-right: 3px;
-    background: #00000028;
 }
 
 .chatTypingGradientAtBottom__36d07 {
@@ -512,4 +501,14 @@ display: none;
 border-radius: 13px;
 background: #50494e2c;
 border: 1px solid var(--border-subtle);
+}
+
+.nitro-pink_a62383 {
+border-radius: 20px !important;
+}
+
+.newMessagesBar__0f481 {
+    border-radius: 15px;
+    background: #55414c91;
+        backdrop-filter: blur(15px);
 }
