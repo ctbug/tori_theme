@@ -167,17 +167,9 @@ border-radius: 20px;
   margin-bottom: 16px !important;
 }
 
-
-.visual-refresh .form_f75fb0 {
-    & .base_b88801 {
-        & .typingDots_b88801, & .cooldownText_b21699 {
-            &.typingDots_b88801 {
-              border-radius: 12px;
-              margin-bottom: 10px;
-
-            }
-        }
-    }
+.cooldownWrapper_b21699 {
+backdrop-filter: blur(10px);
+border-radius: 20px;
 }
 
 .channelTextArea_f75fb0, .scrollableContainer__74017, .upload_aa605f {
@@ -452,7 +444,6 @@ body { background: center/cover var(--nvbgimg) !important; }
 
 .outer_c0bea0 {
       border-radius: 20px;
-    border: 1px solid var(--border-subtle);
     margin-left: 8px;
 }
 
@@ -509,6 +500,14 @@ border-radius: 20px !important;
 
 .newMessagesBar__0f481 {
     border-radius: 15px;
-    background: #55414c91;
+    background: #463f4260;
         backdrop-filter: blur(15px);
+}
+
+.custom-user-profile-theme .inner_c0bea0 {
+  border-radius: 14px;
+}
+
+.wrapper__3412a {
+border-radius: 17px !important;
 }
